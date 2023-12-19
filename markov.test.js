@@ -1,7 +1,5 @@
 const {MarkovMachine} = require('./markov')
 
-
-
 describe("tests for Markov Machine", function() {
     let mm;
     let wordsArr;

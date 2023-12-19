@@ -30,7 +30,7 @@ class MarkovMachine {
       }
       
     }
-    
+
     // console.log(chain)
     return chain
   }
@@ -80,13 +80,7 @@ class MarkovMachine {
     return textResponse
   }
 }
-// let testText = "the cat in the hat"
-// let mm = new MarkovMachine(testText);
-// let chain = mm.makeChains();
-// let output = mm.makeText();
-// console.log(typeof(output))
-// let mm = new MarkovMachine("the cat in the hat");
-// mm.makeText()
+
 
 module.exports = {
   MarkovMachine: MarkovMachine

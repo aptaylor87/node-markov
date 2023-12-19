@@ -5,12 +5,6 @@ const argv = process.argv;
 const axios = require('axios');
 const {MarkovMachine} = require('./markov')
 
-// $ node makeText.js file eggs.txt
-// ... generated text from file 'eggs.txt' ...
-
-// $ node makeText.js url http://www.gutenberg.org/files/11/11-0.txt
-// ... generated text from that URL ...
-
 
 function fromFile(path) {
     fs.readFile(path, 'utf-8', function( err, data) {
